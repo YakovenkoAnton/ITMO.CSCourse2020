@@ -41,8 +41,12 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.spWin = new System.Windows.Forms.ToolStripStatusLabel();
+            this.spData = new System.Windows.Forms.ToolStripStatusLabel();
             this.MdiMenu.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MdiMenu
@@ -53,7 +57,7 @@
             this.MdiMenu.Location = new System.Drawing.Point(0, 0);
             this.MdiMenu.MdiWindowListItem = this.WindowMenuItem;
             this.MdiMenu.Name = "MdiMenu";
-            this.MdiMenu.Size = new System.Drawing.Size(638, 24);
+            this.MdiMenu.Size = new System.Drawing.Size(434, 24);
             this.MdiMenu.TabIndex = 1;
             this.MdiMenu.Text = "menuStrip1";
             this.MdiMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked_1);
@@ -114,7 +118,7 @@
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(638, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(434, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -160,11 +164,34 @@
             this.toolStripButton3.Text = "toolStripButton3";
             this.toolStripButton3.ToolTipText = "Windows tile";
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.spWin,
+            this.spData});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 289);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(434, 22);
+            this.statusStrip1.TabIndex = 4;
+            // 
+            // spWin
+            // 
+            this.spWin.Name = "spWin";
+            this.spWin.Size = new System.Drawing.Size(39, 17);
+            this.spWin.Text = "Status";
+            // 
+            // spData
+            // 
+            this.spData.Name = "spData";
+            this.spData.Size = new System.Drawing.Size(31, 17);
+            this.spData.Text = "Data";
+            // 
             // ParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(638, 475);
+            this.ClientSize = new System.Drawing.Size(434, 311);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.MdiMenu);
             this.IsMdiContainer = true;
@@ -176,6 +203,8 @@
             this.MdiMenu.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,6 +224,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel spWin;
+        private System.Windows.Forms.ToolStripStatusLabel spData;
     }
 }
 

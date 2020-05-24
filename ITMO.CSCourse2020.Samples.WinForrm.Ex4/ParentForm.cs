@@ -17,6 +17,7 @@ namespace ITMO.CSCourse2020.Samples.WinForrm.Ex4
         public ParentForm()
         {
             InitializeComponent();
+            spData.Text = Convert.ToString(System.DateTime.Today.ToLongDateString());
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,11 +43,14 @@ namespace ITMO.CSCourse2020.Samples.WinForrm.Ex4
         private void WindowCascadeMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+            spWin.Text = "Windows is cascade";
         }
 
         private void WindowTileMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+            spWin.Text = "Windows is horizontal";
+
         }
 
         private void NewMenuItem_Click(object sender, EventArgs e)
@@ -84,11 +88,13 @@ namespace ITMO.CSCourse2020.Samples.WinForrm.Ex4
                     break;
                 case "Cascade":
                     this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+                    spWin.Text = "Windows is cascade";
                     break;
                 case "Tile":
                     this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+                    spWin.Text = "Windows is horizontal";
                     break;
-                }
+                 }
         }
     }
 }
