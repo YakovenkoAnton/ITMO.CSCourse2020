@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.MdiApp_Sec1_Ex4", "ITMO.CSCourse2020.Samples.WinForrm.Ex4\ITMO.CSCourse2020.Samples.WinForm.MdiApp_Sec1_Ex4.csproj", "{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Sec1_Ex2_3", "ITMO.CSCourse2020.Samples.WinForm2\ITMO.CSCourse2020.Samples.WinForm_Sec1_Ex2_3.csproj", "{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Sec2_Ex1", "ITMO.CSCourse2020.Samples.WinForm.WinQuestion\ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Sec2_Ex1.csproj", "{B945F66F-552E-4B75-90A2-97762AF6A294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Sec1Ex1", "ITMO.CsharpWinFormSample\ITMO.CSCourse2020.Samples.WinForm_Sec1Ex1.csproj", "{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B945F66F-552E-4B75-90A2-97762AF6A294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B945F66F-552E-4B75-90A2-97762AF6A294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B945F66F-552E-4B75-90A2-97762AF6A294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B945F66F-552E-4B75-90A2-97762AF6A294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61CD3D1A-2EB5-40E5-89D5-4453BFCA7D3E}
+	EndGlobalSection
+EndGlobal
