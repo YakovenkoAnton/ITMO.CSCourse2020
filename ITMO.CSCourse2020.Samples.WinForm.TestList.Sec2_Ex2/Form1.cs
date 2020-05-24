@@ -35,7 +35,7 @@ namespace ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2
 
         private void buttonSort_Click(object sender, EventArgs e)
         {
-            memberList.Sorted = true;
+            memberList.Sorted = true; 
         }
     }
 }
