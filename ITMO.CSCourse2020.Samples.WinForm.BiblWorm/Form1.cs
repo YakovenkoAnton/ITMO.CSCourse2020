@@ -61,29 +61,25 @@ namespace ITMO.CSCourse2020.Samples.WinForm.BiblWorm
         public bool Existence
         {
             get { return checkBox1.Checked; }
-            set { checkBox1.Checked = value; }
-                   
+            set { checkBox1.Checked = value; }                   
         }
 
         public bool SortInvNumber
         {
             get { return checkBox3.Checked; }
             set { checkBox3.Checked = value; }
-
         }
 
         public bool ReturnTime
         {
             get { return checkBox2.Checked; }
             set { checkBox2.Checked = value; }
-
         }
 
         public int PeriodUse
         {
             get { return (int)numericUpDown4.Value; }
             set { numericUpDown4.Value = value; }
-
         }
 
 
