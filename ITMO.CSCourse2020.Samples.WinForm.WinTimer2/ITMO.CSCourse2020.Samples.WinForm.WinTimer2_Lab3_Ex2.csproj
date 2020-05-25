@@ -89,9 +89,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer.csproj">
+    <ProjectReference Include="..\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer_Lab3_Ex1dll.csproj">
       <Project>{F8C3FA6A-B258-4E76-AB12-03D1F97DC990}</Project>
-      <Name>ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer</Name>
+      <Name>ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer_Lab3_Ex1dll</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

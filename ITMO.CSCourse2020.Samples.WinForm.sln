@@ -3,33 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.MdiApp_Sec1_Ex4", "ITMO.CSCourse2020.Samples.WinForrm.Ex4\ITMO.CSCourse2020.Samples.WinForm.MdiApp_Sec1_Ex4.csproj", "{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.MdiApp_Lab1_Ex4_Lab2_Ex3_4", "ITMO.CSCourse2020.Samples.WinForrm.Ex4\ITMO.CSCourse2020.Samples.WinForm.MdiApp_Lab1_Ex4_Lab2_Ex3_4.csproj", "{11D67AD4-202E-4EB1-B41E-5E3CCCA55CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Sec1_Ex2_3", "ITMO.CSCourse2020.Samples.WinForm2\ITMO.CSCourse2020.Samples.WinForm_Sec1_Ex2_3.csproj", "{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex2_3", "ITMO.CSCourse2020.Samples.WinForm2\ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex2_3.csproj", "{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Sec2_Ex1", "ITMO.CSCourse2020.Samples.WinForm.WinQuestion\ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Sec2_Ex1.csproj", "{B945F66F-552E-4B75-90A2-97762AF6A294}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Lab2_Ex1", "ITMO.CSCourse2020.Samples.WinForm.WinQuestion\ITMO.CSCourse2020.Samples.WinForm.WinQuestion_Lab2_Ex1.csproj", "{B945F66F-552E-4B75-90A2-97762AF6A294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Sec1Ex1", "ITMO.CsharpWinFormSample\ITMO.CSCourse2020.Samples.WinForm_Sec1Ex1.csproj", "{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex1", "ITMO.CsharpWinFormSample\ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex1.csproj", "{CAE107DB-E5A3-4191-8CD0-11C2C28DBE73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2", "ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2\ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2.csproj", "{C0A0907A-C5D6-4324-87E9-80BC8CC8E0B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.TestList.Lab2_Ex2", "ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2\ITMO.CSCourse2020.Samples.WinForm.TestList.Lab2_Ex2.csproj", "{C0A0907A-C5D6-4324-87E9-80BC8CC8E0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinContainer", "ITMO.CSCourse2020.Samples.WinForm.WinContainer\ITMO.CSCourse2020.Samples.WinForm.WinContainer.csproj", "{6A6C73DE-49CF-444F-B914-0251028B43E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinContainer_Lab2_Ex5", "ITMO.CSCourse2020.Samples.WinForm.WinContainer\ITMO.CSCourse2020.Samples.WinForm.WinContainer_Lab2_Ex5.csproj", "{6A6C73DE-49CF-444F-B914-0251028B43E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.BiblWorm", "ITMO.CSCourse2020.Samples.WinForm.BiblWorm\ITMO.CSCourse2020.Samples.WinForm.BiblWorm.csproj", "{D31230E2-C74C-4203-B262-DDB69518C125}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.BiblWorm_Lab2_Ex6", "ITMO.CSCourse2020.Samples.WinForm.BiblWorm\ITMO.CSCourse2020.Samples.WinForm.BiblWorm_Lab2_Ex6.csproj", "{D31230E2-C74C-4203-B262-DDB69518C125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.RegistrationForm", "ITMO.CSCourse2020.Samples.WinForm.RegistrationForm\ITMO.CSCourse2020.Samples.WinForm.RegistrationForm.csproj", "{DAA8E236-17D7-4770-AE7E-9BEE2CD83703}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.RegistrationForm_Lab2_Ex7_8", "ITMO.CSCourse2020.Samples.WinForm.RegistrationForm\ITMO.CSCourse2020.Samples.WinForm.RegistrationForm_Lab2_Ex7_8.csproj", "{DAA8E236-17D7-4770-AE7E-9BEE2CD83703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinTimer1", "ITMO.CSCourse2020.Samples.WinForm.WinTimer1\ITMO.CSCourse2020.Samples.WinForm.WinTimer1.csproj", "{83702E85-C64A-4B7F-9C46-F93371F659E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinTimer1_Lab3_Ex1", "ITMO.CSCourse2020.Samples.WinForm.WinTimer1\ITMO.CSCourse2020.Samples.WinForm.WinTimer1_Lab3_Ex1.csproj", "{83702E85-C64A-4B7F-9C46-F93371F659E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer", "ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer.csproj", "{F8C3FA6A-B258-4E76-AB12-03D1F97DC990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer_Lab3_Ex1dll", "ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer\ITMO.CSCourse2020.Samples.WinForm.ControlLibraryTimer_Lab3_Ex1dll.csproj", "{F8C3FA6A-B258-4E76-AB12-03D1F97DC990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinTimer2", "ITMO.CSCourse2020.Samples.WinForm.WinTimer2\ITMO.CSCourse2020.Samples.WinForm.WinTimer2.csproj", "{A25675F7-1670-43F3-917F-6812796EC9D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinTimer2_Lab3_Ex2", "ITMO.CSCourse2020.Samples.WinForm.WinTimer2\ITMO.CSCourse2020.Samples.WinForm.WinTimer2_Lab3_Ex2.csproj", "{A25675F7-1670-43F3-917F-6812796EC9D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinButNum", "ITMO.CSCourse2020.Samples.WinForm.WinButNum\ITMO.CSCourse2020.Samples.WinForm.WinButNum.csproj", "{474C467F-5014-4BDB-B0F9-B547E9341E1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinButNum_Lab3_Ex3", "ITMO.CSCourse2020.Samples.WinForm.WinButNum\ITMO.CSCourse2020.Samples.WinForm.WinButNum_Lab3_Ex3.csproj", "{474C467F-5014-4BDB-B0F9-B547E9341E1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5", "ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5\ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5.csproj", "{8DE7DBCB-E0BF-4161-8CF8-06EE70A09761}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.Lab1_Ex5_1", "ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5\ITMO.CSCourse2020.Samples.WinForm.Lab1_Ex5_1.csproj", "{8DE7DBCB-E0BF-4161-8CF8-06EE70A09761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5_2", "ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5_2\ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5_2.csproj", "{B90E2C0C-F7DC-4140-8431-C82D0F5C2ED0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.Lab1_Ex5_2", "ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5_2\ITMO.CSCourse2020.Samples.WinForm.Lab1_Ex5_2.csproj", "{B90E2C0C-F7DC-4140-8431-C82D0F5C2ED0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
