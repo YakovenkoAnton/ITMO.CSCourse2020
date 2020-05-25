@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinTimer2", "ITMO.CSCourse2020.Samples.WinForm.WinTimer2\ITMO.CSCourse2020.Samples.WinForm.WinTimer2.csproj", "{A25675F7-1670-43F3-917F-6812796EC9D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.WinButNum", "ITMO.CSCourse2020.Samples.WinForm.WinButNum\ITMO.CSCourse2020.Samples.WinForm.WinButNum.csproj", "{474C467F-5014-4BDB-B0F9-B547E9341E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A25675F7-1670-43F3-917F-6812796EC9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A25675F7-1670-43F3-917F-6812796EC9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A25675F7-1670-43F3-917F-6812796EC9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474C467F-5014-4BDB-B0F9-B547E9341E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474C467F-5014-4BDB-B0F9-B547E9341E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474C467F-5014-4BDB-B0F9-B547E9341E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474C467F-5014-4BDB-B0F9-B547E9341E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
