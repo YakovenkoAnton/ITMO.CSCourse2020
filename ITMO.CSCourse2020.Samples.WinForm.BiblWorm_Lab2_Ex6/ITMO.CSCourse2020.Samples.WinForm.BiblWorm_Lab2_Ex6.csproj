@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D31230E2-C74C-4203-B262-DDB69518C125}</ProjectGuid>
+    <ProjectGuid>{E7C74396-C9DA-4894-AD37-F3B5425DF504}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ITMO.CSCourse2020.Samples.WinForm.BiblWorm</RootNamespace>
     <AssemblyName>ITMO.CSCourse2020.Samples.WinForm.BiblWorm</AssemblyName>
