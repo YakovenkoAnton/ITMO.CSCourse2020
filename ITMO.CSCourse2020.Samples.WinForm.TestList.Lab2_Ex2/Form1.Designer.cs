@@ -1,4 +1,4 @@
-﻿namespace ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2
+﻿namespace ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2Ex2
 {
     partial class MainForm
     {

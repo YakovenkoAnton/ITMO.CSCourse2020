@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5
+namespace ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5
 {
     public partial class Form1 : Form
     {

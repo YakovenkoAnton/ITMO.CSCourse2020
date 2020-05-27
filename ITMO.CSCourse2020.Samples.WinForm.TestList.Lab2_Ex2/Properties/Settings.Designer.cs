@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2_Ex2.Properties
+namespace ITMO.CSCourse2020.Samples.WinForm.TestList.Sec2Ex2.Properties
 {
 
 

@@ -1,4 +1,4 @@
-﻿namespace ITMO.CSCourse2020.Samples.WinForm.Sec1_Ex5
+﻿namespace ITMO.CSCourse2020.Samples.WinForm.Sec1Ex5
 {
     partial class Form1
     {
