@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex2_3", "ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex2_3\ITMO.CSCourse2020.Samples.WinForm_Lab1_Ex2_3.csproj", "{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2020.Samples.WinForm.TestStandartDialog.Lab4Ex1", "ITMO.CSCourse2020.Samples.WinForm.TestStandartDialog.Lab4Ex1\ITMO.CSCourse2020.Samples.WinForm.TestStandartDialog.Lab4Ex1.csproj", "{B97B02ED-0A09-42B4-A62E-3BD97C878E4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A7D662E-9EA7-43EE-8E8D-ADCD9EB68459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97B02ED-0A09-42B4-A62E-3BD97C878E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97B02ED-0A09-42B4-A62E-3BD97C878E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97B02ED-0A09-42B4-A62E-3BD97C878E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97B02ED-0A09-42B4-A62E-3BD97C878E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
