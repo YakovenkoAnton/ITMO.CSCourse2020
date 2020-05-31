@@ -1,7 +1,12 @@
-﻿namespace ITMO.CSCourse2020.Samples.WinForm.WinAsynchDelegate.Lab7Ex2
+﻿using System.Globalization;
+
+namespace ITMO.CSCourse2020.Samples.WinForm.WinAsynchDelegate.Lab7Ex2
 {
     partial class MainForm
     {
+        bool cancel;
+        
+        
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -117,6 +122,46 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Button cancelButton;
+
+        private void TimeConsumingMethod(int seconds)
+        {
+            for (int j = 1; j <= seconds; j++)
+            {
+                if (cancel)
+                    break;
+                System.Threading.Thread.Sleep(1000);
+                SetProgress((int)(j * 100) / seconds);
+            }   
+            
+            if (cancel)
+            {
+                System.Windows.Forms.MessageBox.Show("Cancelled");
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Complete");
+            }
+
+
+        }
+
+        private delegate void TimeConsumingMethodDelegate(int seconds);
+
+        public delegate void SetProgressDelegate(int val);
+
+        public void SetProgress(int val)
+        {
+            if (progressBar1.InvokeRequired)
+            {
+                SetProgressDelegate del = new SetProgressDelegate(SetProgress);
+                this.Invoke(del, new object[] { val });
+            }
+            else
+            {
+                progressBar1.Value = val;
+            }
+        }
+
     }
 }
 

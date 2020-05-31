@@ -29,12 +29,14 @@ namespace ITMO.CSCourse2020.Samples.WinForm.WinAsynchDelegate.Lab7Ex2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            cancel = false;
+            TimeConsumingMethodDelegate del = new TimeConsumingMethodDelegate(TimeConsumingMethod);
+            del.BeginInvoke(int.Parse(textBox1.Text), null, null);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            cancel = true;
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)

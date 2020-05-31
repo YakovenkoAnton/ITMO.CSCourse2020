@@ -18,18 +18,6 @@ namespace ITMO.CSCourse2020.Samples.WinForm.WinAsynchDelegate.Lab7Ex2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
         }
-
-        private void TimeConsumingMethod(int seconds)
-        {
-            for (int j = 1; j <= seconds; j++)
-                System.Threading.Thread.Sleep(1000);
-        }
-
-
-
-
     }
-
-
 }
 
