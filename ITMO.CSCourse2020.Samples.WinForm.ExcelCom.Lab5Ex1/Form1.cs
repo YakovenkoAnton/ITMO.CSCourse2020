@@ -31,7 +31,7 @@ namespace ITMO.CSCourse2020.Samples.WinForm.ExcelCom.Lab5Ex1
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 textBox1.Text = ofd.FileName;
-                workbook = app.Workbook.Open(ofd.FileName);
+                workbook = app.Workbooks.Open(ofd.FileName);
                 NwSheet = (ExcelObj.Worksheet)workbook.Sheets.get_Item(1);
                 ShtRange = NwSheet.UsedRange;
                 for (int Cnum = 1; Cnum <= ShtRange.Columns.Count; Cnum++)
